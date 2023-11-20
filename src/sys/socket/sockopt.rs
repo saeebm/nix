@@ -359,7 +359,7 @@ sockopt_impl!(
     Both,
     libc::IPPROTO_IP,
     libc::IP_MULTICAST_TTL,
-    u8
+    i32
 );
 #[cfg(feature = "net")]
 sockopt_impl!(
